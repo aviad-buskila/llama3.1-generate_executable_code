@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed7ae85-dd2b-499c-9980-442bf6a0a03a" name="Changes" comment="moved to ollama infra and updated requirements file and git ignore">
-      <change afterPath="$PROJECT_DIR$/build_function/ModelMethods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_function/ProcessReponse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_function/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_function/generated.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_function/globals.py" afterDir="false" />
+    <list default="true" id="5ed7ae85-dd2b-499c-9980-442bf6a0a03a" name="Changes" comment="e2e flow to generate code by prompt and create an exectuble code by it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_function/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_function/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_function/generated.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_function/generated.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722019724628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="e2e flow to generate code by prompt and create an exectuble code by it">
+      <option name="closed" value="true" />
+      <created>1722022384484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722022384484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit of the basic infra to use llama3.1 8B instruct" />
     <MESSAGE value="moved to ollama infra and updated requirements file and git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved to ollama infra and updated requirements file and git ignore" />
+    <MESSAGE value="e2e flow to generate code by prompt and create an exectuble code by it" />
+    <option name="LAST_COMMIT_MESSAGE" value="e2e flow to generate code by prompt and create an exectuble code by it" />
   </component>
 </project>

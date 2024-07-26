@@ -1,5 +1,6 @@
 def sum_lst(lst):
     try:
-        return {'status': 'ok', 'sum': sum(lst)}
-    except TypeError:
-        return {'status': 'error', 'sum': None}
+        total = sum(lst)
+        return {'status': 'ok', 'sum': total}
+    except Exception as e:
+        return {'status': 'error', 'msg': str(e)}
