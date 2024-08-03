@@ -1,2 +1,6 @@
 MODEL_NAME = 'llama3.1:8b'
 ROLE = 'user'
+MODEL_TEMP = 0.1
+OPPONENT_MODEL = 'mistral-nemo'
+OPPONENT_ROLE = 'user'
+OPPONENT_MODEL_TEMP = 0.1
