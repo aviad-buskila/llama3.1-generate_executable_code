@@ -9,5 +9,4 @@ prompt - the function signature. Make sure you keep the output and structure ins
 function_input - the input the generated function would run with to demonstrate validity. 
 path_for_generated_function - the name of the file to store the generated code in. 
 
-
-
+In order to pull mistral-nemo (in case you'd liek to use the validation of Llama3.1 response), don't forget to run also `ollama pull mistral-nemo```
